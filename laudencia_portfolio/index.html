@@ -1,0 +1,569 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of Maricel Laudencia, showcasing IT projects, technical skills, certificates, and achievements.">
+  <meta name="theme-color" content="#7048c9">
+  <title>Maricel Laudencia | IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <div class="brand-group">
+        <a class="brand" href="#home">
+          <span class="brand-mark">ML</span>
+          <span>Maricel Laudencia</span>
+        </a>
+        <button class="theme-toggle" id="themeToggle" type="button"
+          aria-label="Switch to dark mode" aria-pressed="false" title="Switch theme">
+          <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+        </button>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#contact" class="nav-contact">Contact Me</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">
+            <span class="status-dot"></span>
+            BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY PORTFOLIO
+          </span>
+
+          <p class="hero-greeting">Hello, welcome to my portfolio!</p>
+
+          <h1>
+            I'm <span class="gradient-text">Maricel Laudencia.</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            Aspiring IT Professional
+          </h2>
+
+          <p class="hero-description">
+            I am pursuing a Bachelor of Science in Information Technology at
+            Northeastern College. My interests include web and mobile app
+            development, networking, and data management. Through academic
+            projects and certificates from TESDA, Cisco Networking Academy,
+            and Microsoft Learn, I am building practical foundations in
+            programming, databases, computer systems servicing, and network
+            setup. I am eager to keep learning and contribute to useful
+            technology projects.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Projects <span aria-hidden="true">↗</span>
+            </a>
+            <a href="assets/Documents/ATS_LAUDENCIA.pdf"
+              class="btn btn-outline" target="_blank" rel="noopener">
+              View My Resume
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-glow"></div>
+          <div class="portrait-card">
+            <div class="portrait-frame">
+              <img src="assets/profile.jpg"
+                alt="Professional profile photo of Maricel Laudencia"
+                onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+              <div class="portrait-fallback">ML</div>
+            </div>
+
+          <div class="hero-note profile-note">
+            <span class="note-line"></span>
+            Learn. Build. Improve.
+          </div>
+
+        </div>
+      </div>
+
+      <div class="container quick-facts">
+        <div class="fact">
+          <span class="fact-icon">⌘</span>
+          <div><strong>Development</strong><small>Web & Mobile Applications</small></div>
+        </div>
+        <div class="fact">
+          <span class="fact-icon">▤</span>
+          <div><strong>Data Management</strong><small>Databases & Record Accuracy</small></div>
+        </div>
+        <div class="fact">
+          <span class="fact-icon">✦</span>
+          <div><strong>Professional Growth</strong><small>Networking, Training & Credentials</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">GET TO KNOW ME</span>
+          <h2>About <span class="gradient-text">Me</span></h2>
+          <p>A little about my background, interests, and goals.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card about-main-card">
+            <span class="card-kicker">MY BACKGROUND</span>
+            <h3>Technology with purpose.</h3>
+            <p>
+              As an Information Technology student at Northeastern College,
+              I have explored software and application development, databases,
+              user interfaces, and information systems through academic projects.
+              My project work includes web-based management systems and mobile
+              applications using tools such as PHP, MySQL, Flutter, and Supabase.
+            </p>
+            <p>
+              My training and certificates have also helped me build foundational
+              knowledge in computer systems servicing, network and server setup,
+              and hardware support. I value accuracy,
+              teamwork, and continuous learning, and I am working to grow these
+              skills through hands-on experience.
+            </p>
+          </div>
+
+          <div class="about-side">
+            <div class="info-card">
+              <span class="info-icon">🎓</span>
+              <div>
+                <h3>Education</h3>
+                <p>Bachelor of Science in Information Technology</p>
+                <small>Northeastern College · 2023–Present</small>
+                <p>Senior High School</p>
+                <small>San Marcelino National High School · 2022–2023</small>
+                <p>Junior High School</p>
+                <small>San Marcelino National High School · 2015–2016</small>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <span class="info-icon">◎</span>
+              <div>
+                <h3>Areas of Interest</h3>
+                <p>Web Development, Application Development, Networking, Data Management</p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <span class="info-icon">↗</span>
+              <div>
+                <h3>Career Goal</h3>
+                <p>To grow as an IT professional and contribute to meaningful projects.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">WHAT I BRING</span>
+          <h2>Skills & <span class="gradient-text">Tools</span></h2>
+          <p>Technologies and professional skills I have worked with or studied.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <div class="skill-icon">⌨</div>
+            <h3>Programming & Development</h3>
+            <p>Building web pages and exploring application development.</p>
+            <div class="tag-list">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              <span>PHP</span><span>C++</span><span>C#</span>
+              <span>Dart</span><span>Flutter</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <div class="skill-icon">▤</div>
+            <h3>Database & Data Handling</h3>
+            <p>Organizing information and working with structured records.</p>
+            <div class="tag-list">
+              <span>MySQL</span><span>Supabase</span>
+              <span>Data Entry</span><span>Record Keeping</span>
+              <span>Data Accuracy</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <div class="skill-icon">⌁</div>
+            <h3>Networking & Computer Systems</h3>
+            <p>Foundational skills from TESDA training in setting up and maintaining computer networks and servers.</p>
+            <div class="tag-list">
+              <span>Network Setup</span><span>Server Setup</span>
+              <span>Computer Systems Servicing</span>
+              <span>Network Maintenance</span>
+              <span>Hardware Installation</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">04</span>
+            <div class="skill-icon">▦</div>
+            <h3>Office & Documentation</h3>
+            <p>Preparing documents, organizing files, and presenting information.</p>
+            <div class="tag-list">
+              <span>MS Word</span><span>Excel</span>
+              <span>PowerPoint</span><span>Documentation</span>
+              <span>File Organization</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">05</span>
+            <div class="skill-icon">◇</div>
+            <h3>Professional Skills</h3>
+            <p>Approaches that support reliable and responsible work.</p>
+            <div class="tag-list">
+              <span>Technical Troubleshooting</span>
+              <span>Computer Hardware Servicing</span>
+              <span>Network Configuration</span>
+              <span>Server Setup</span>
+              <span>Attention to Detail</span>
+              <span>Problem Solving</span>
+              <span>Teamwork</span>
+              <span>Time Management</span>
+              <span>Data Privacy Awareness</span>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">SELECTED WORK</span>
+          <h2>Projects I've <span class="gradient-text">Worked On</span></h2>
+          <p>A selection of systems and applications from my development journey.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art project-purple">
+              <span class="project-label">PHP · MYSQL · MVC</span>
+              <div class="project-mock">
+                <div class="mock-sidebar"></div>
+                <div class="mock-content">
+                  <span></span><span></span><span></span>
+                  <div class="mock-row"></div>
+                </div>
+              </div>
+              <span class="project-art-name">CFHCMS</span>
+            </div>
+            <div class="project-body">
+              <span class="project-type">Management System</span>
+              <h3>Carbonel Funeral Homes and Chapels Management System</h3>
+              <p>
+                A management system project designed to organize client
+                records, service information, chapel reservations, payments,
+                field collections, and reports.
+              </p>
+              <div class="tag-list"><span>PHP</span><span>MySQL</span><span>Bootstrap</span><span>MVC</span></div>
+              <a class="project-repo-link" data-project="carbonel" target="_blank" rel="noopener" hidden>View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art project-blue">
+              <span class="project-label">FLUTTER · DART · SUPABASE</span>
+              <div class="habit-mock">
+                <div class="habit-check">✓</div>
+                <div class="habit-lines"><span></span><span></span></div>
+                <div class="habit-check">✓</div>
+                <div class="habit-lines"><span></span><span></span></div>
+                <div class="habit-check empty"></div>
+                <div class="habit-lines"><span></span><span></span></div>
+              </div>
+              <span class="project-art-name">Habit Quest</span>
+            </div>
+            <div class="project-body">
+              <span class="project-type">Mobile Application</span>
+              <h3>Habit Quest</h3>
+              <p>
+                A habit-tracking application project focused on recording
+                habits, tracking completion, and helping users build
+                consistent routines.
+              </p>
+              <div class="tag-list"><span>Flutter</span><span>Dart</span><span>Supabase</span></div>
+              <a class="project-repo-link" data-project="habitQuest" target="_blank" rel="noopener" hidden>View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art project-orange">
+              <span class="project-label">FLUTTER · REST API</span>
+              <div class="recipe-mock">
+                <div class="recipe-circle">✿</div>
+                <div class="recipe-lines"><span></span><span></span><span></span></div>
+              </div>
+              <span class="project-art-name">Food Recipe App</span>
+            </div>
+            <div class="project-body">
+              <span class="project-type">Recipe Application</span>
+              <h3>Food Recipe App</h3>
+              <p>
+                A recipe application project that retrieves meal information
+                from an API and explores recipe search, categories,
+                favorites, and recipe details.
+              </p>
+              <div class="tag-list"><span>Flutter</span><span>Dart</span><span>REST API</span></div>
+              <a class="project-repo-link" data-project="foodRecipe" target="_blank" rel="noopener" hidden>View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art project-green">
+              <span class="project-label">WEB DEVELOPMENT</span>
+              <div class="system-mock">
+                <div class="system-avatar">S</div>
+                <div class="system-lines"><span></span><span></span></div>
+                <div class="system-table"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <span class="project-art-name">Student System</span>
+            </div>
+            <div class="project-body">
+              <span class="project-type">Information System</span>
+              <h3>Student System</h3>
+              <p>
+                A student information system project focused on organizing
+                student details and practicing data management and CRUD
+                operations.
+              </p>
+              <div class="tag-list"><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div>
+              <a class="project-repo-link" data-project="studentSystem" target="_blank" rel="noopener" hidden>View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art project-pink">
+              <span class="project-label">RECORD MANAGEMENT</span>
+              <div class="attendance-mock">
+                <div class="attendance-heading"></div>
+                <div class="attendance-row"><i></i><span></span><b>✓</b></div>
+                <div class="attendance-row"><i></i><span></span><b>✓</b></div>
+                <div class="attendance-row"><i></i><span></span><b>✓</b></div>
+              </div>
+              <span class="project-art-name">Attendance Monitor</span>
+            </div>
+            <div class="project-body">
+              <span class="project-type">Monitoring System</span>
+              <h3>Attendance Monitoring System</h3>
+              <p>
+                A system project intended to organize attendance records
+                and make attendance information easier to manage.
+              </p>
+              <div class="tag-list"><span>Web Development</span><span>Database</span><span>Records</span></div>
+              <a class="project-repo-link" data-project="attendance" target="_blank" rel="noopener" hidden>Find on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-art project-dark">
+              <span class="project-label">WEB APPLICATION</span>
+              <div class="voting-mock">
+                <div class="vote-person">A</div>
+                <div class="vote-person">B</div>
+                <div class="vote-person">C</div>
+                <div class="vote-button">CAST YOUR VOTE</div>
+              </div>
+              <span class="project-art-name">Online Voting</span>
+            </div>
+            <div class="project-body">
+              <span class="project-type">Voting Application</span>
+              <h3>Online Voting System</h3>
+              <p>
+                A web-based project that explores candidate presentation,
+                voting workflows, and the organization of voting information.
+              </p>
+              <div class="tag-list"><span>PHP</span><span>MySQL</span><span>Web Design</span></div>
+              <a class="project-repo-link" data-project="onlineVoting" target="_blank" rel="noopener" hidden>View on GitHub <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CREDENTIALS -->
+    <section class="section" id="credentials">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">CONTINUOUS LEARNING</span>
+          <h2>Certificates & <span class="gradient-text">Achievements</span></h2>
+          <p>Professional learning, training, seminars, certifications, and recognition.</p>
+        </div>
+
+        <div class="credentials-intro">
+          <div>
+            <h3>My Learning Journey</h3>
+            <p>
+              Browse my credentials by category. Select a certificate to
+              view a larger preview and its details.
+            </p>
+          </div>
+          <span class="credential-count" id="credentialCount">0 credentials</span>
+        </div>
+
+        <div class="credential-controls">
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input type="search" id="credentialSearch"
+              placeholder="Search credentials..." aria-label="Search credentials">
+          </label>
+
+          <label class="sort-control">
+            <span>Sort:</span>
+            <select id="credentialSort" aria-label="Sort credentials">
+              <option value="newest">Newest first</option>
+              <option value="oldest">Oldest first</option>
+              <option value="az">Name A–Z</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="filter-list" id="credentialFilters" aria-label="Credential categories">
+          <button class="filter-btn active" data-filter="All">All</button>
+          <button class="filter-btn" data-filter="Seminars">Seminars</button>
+          <button class="filter-btn" data-filter="Microsoft Learn">Microsoft Learn</button>
+          <button class="filter-btn" data-filter="Cisco Networking Academy">Cisco Networking Academy</button>
+          <button class="filter-btn" data-filter="Webinars">Webinars</button>
+          <button class="filter-btn" data-filter="TESDA">TESDA</button>
+          <button class="filter-btn" data-filter="Other Certifications">Other Certifications</button>
+          <button class="filter-btn" data-filter="Awards & Achievements">Awards & Achievements</button>
+        </div>
+
+        <div class="credentials-grid" id="credentialsGrid"></div>
+
+        <div class="empty-state" id="credentialEmpty" hidden>
+          <span>◇</span>
+          <h3>No matching credentials</h3>
+          <p>Try another search term or select a different category.</p>
+        </div>
+
+        <p class="small-note">
+          Certificate titles are based on the files provided. Dates and
+          verification links are shown when available on the certificate.
+        </p>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section class="section section-soft" id="resume">
+      <div class="container">
+        <div class="resume-panel">
+          <div class="resume-decoration" aria-label="Maricel Laudencia initials">ML</div>
+          <div class="resume-content">
+            <span class="eyebrow">LET'S CONNECT PROFESSIONALLY</span>
+            <h2>Want to know more about my background?</h2>
+            <p>
+              My resume provides a concise overview of my education,
+              technical skills, projects, and relevant experience.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="assets/Documents/ATS_LAUDENCIA.pdf"
+                target="_blank" rel="noopener">View Resume ↗</a>
+              <a class="btn btn-outline" href="assets/Documents/ATS_LAUDENCIA.pdf"
+                download>Download Resume ↓</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">GET IN TOUCH</span>
+          <h2>Let's <span class="gradient-text">Connect</span></h2>
+          <p>For job opportunities, professional connections, or project inquiries.</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">✉</div>
+          <h3>Have an opportunity in mind?</h3>
+          <p>
+            I welcome professional connections and opportunities to learn,
+            contribute, and grow.
+          </p>
+          <p class="contact-email">maricellaudencia09@gmail.com</p>
+          <div class="social-links">
+            <a class="btn btn-primary" id="emailLink"
+              href="mailto:maricellaudencia09@gmail.com">
+              <svg class="contact-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18v13H3z"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+              Email <span aria-hidden="true">↗</span>
+            </a>
+            <a class="btn btn-primary" href="#" id="githubLink" target="_blank" rel="noopener"><svg class="contact-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.1-6-2.5M15 21v-3.5c0-1 .1-1.4-.5-2 3.3-.4 6.8-1.6 6.8-7.2a5.6 5.6 0 0 0-1.5-3.9 5.2 5.2 0 0 0-.1-3.8S18.5.2 15 2.6a13.5 13.5 0 0 0-7 0C4.5.2 3.3.6 3.3.6a5.2 5.2 0 0 0-.1 3.8 5.6 5.6 0 0 0-1.5 3.9c0 5.6 3.5 6.8 6.8 7.2-.6.6-.6 1.2-.5 2V21"/></svg>GitHub <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-primary" href="#" id="linkedinLink" target="_blank" rel="noopener"><svg class="contact-link-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v11M4 4.5v.1M9 20v-6.2c0-2.1 1.2-3.3 3-3.3s3 1.2 3 3.3V20M9 10v10M15 13.8c0-2.1 1.2-3.3 3-3.3s3 1.2 3 3.3V20"/></svg>LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-bottom">
+      <span>© 2026 Maricel Laudencia</span>
+      <span>Personal Profile Portfolio</span>
+    </div>
+  </footer>
+
+  <!-- CREDENTIAL PREVIEW MODAL -->
+  <div class="modal" id="credentialModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="dialog" aria-modal="true"
+      aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close preview">×</button>
+      <div class="modal-image-wrap">
+        <img id="modalImage" src="" alt="Credential preview">
+      </div>
+      <div class="modal-info">
+        <span class="eyebrow" id="modalCategory"></span>
+        <h2 id="modalTitle"></h2>
+        <p id="modalOrganizer"></p>
+        <p id="modalRecipient"></p>
+        <p id="modalDate"></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
